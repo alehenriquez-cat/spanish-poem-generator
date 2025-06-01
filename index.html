@@ -14,19 +14,22 @@
         <h1>AI Spanish Poem Generator</h1>
       </header>
       <main>
-        <form id="poem-generator-form">
-          <input
-            type="text"
-            placeholder="Enter topic for inspiration"
-            autofocus
-            required
-            autocomplete="off"
-            class="prompt-input"
-            id="user-input"
-          />
-          <input type="submit" class="submit-button" />
-        </form>
-        <div class="poem" id="poem"></div>
+        <div class="form-container">
+          <form id="poem-generator-form">
+            <input
+              type="text"
+              placeholder="Enter a topic for some Spanish poetry inspiration"
+              autofocus
+              required
+              autocomplete="off"
+              class="prompt-input"
+              id="user-input"
+            />
+            <input type="submit" class="submit-button" />
+          </form>
+          <div class="hint">i.e. Flower, Unicorns or Tacos</div>
+        </div>
+        <div class="poem hidden" id="poem"></div>
       </main>
       <footer>
         This AI project was coded by
