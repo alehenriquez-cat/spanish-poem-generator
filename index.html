@@ -3,46 +3,51 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="src/style.css" />
     <title>AI Spanish Poem Generator</title>
   </head>
   <body>
-    <header>
-      <h1>AI Spanish Poem Generator</h1>
-    </header>
-    <main>
-      <form>
-        <input
-          type="text"
-          placeholder="Enter topic for inspiration"
-          autofocus
-          required
-          autocomplete="off"
-        />
-        <input type="submit" />
-      </form>
-      <div>
-        The poem will go here
-        <br />
-        The second line of the poem will go here
-      </div>
-    </main>
-    <footer>
-      This AI project was coded by
-      <a href="https://github.com/alehenriquez-cat" target="_blank"
-        >Alejandra Henriquez</a
-      >
-      and is
-      <a
-        href="https://github.com/alehenriquez-cat/spanish-poem-generator"
-        target="_blank"
-        >open-sourced on GitHub</a
-      >
-      and is hosted on
-      <a href="https://spanish-poem-generator-ale.netlify.app/" target="_blank"
-        >Netlify</a
-      >.
-    </footer>
+    <div class="container">
+      <header>
+        <h1>AI Spanish Poem Generator</h1>
+      </header>
+      <main>
+        <form>
+          <input
+            type="text"
+            placeholder="Enter topic for inspiration"
+            autofocus
+            required
+            autocomplete="off"
+            class="prompt-input"
+          />
+          <input type="submit" class="submit-button" />
+        </form>
+        <div class="poem">
+          The poem will go here
+          <br />
+          The second line of the poem will go here
+        </div>
+      </main>
+      <footer>
+        This AI project was coded by
+        <a href="https://github.com/alehenriquez-cat" target="_blank"
+          >Alejandra Henriquez</a
+        >
+        and is
+        <a
+          href="https://github.com/alehenriquez-cat/spanish-poem-generator"
+          target="_blank"
+          >open-sourced on GitHub</a
+        >
+        and is hosted on
+        <a
+          href="https://spanish-poem-generator-ale.netlify.app/"
+          target="_blank"
+          >Netlify</a
+        >.
+      </footer>
+    </div>
     <script src="src/index.jss"></script>
   </body>
 </html>
